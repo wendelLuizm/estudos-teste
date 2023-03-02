@@ -1,0 +1,14 @@
+/*representa um conjunto de coordenadas 2D
+top, right, botoom, left e center
+usado para alguns tipos de proriedades como o background-position
+
+<div class="box"></div>
+
+.box {
+  height: 300px;
+  widht 400px;
+  background-image: 
+  url(http://souce.unsplash.com/random);
+  background-position: right (vai fazer a ponta direita ir para o canto.
+  basicamente rotação de imagens
+}

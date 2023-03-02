@@ -1,0 +1,22 @@
+/* bom, a porcentagem tem uma hierarquia a ser seguida. 
+O padrão é 16 px(html) e tudo abaixo disso que for ser utilizado a porcentagem,
+ se nao tiver um numero explicitando o valor, sera utilizado a padronização do pai html
+ ex:
+ <ul>
+	<li>One</li>
+	<li>Two</li>
+	<li>Three
+		<ul>
+			<li>Three A</li>
+			<li>Three B</li>
+			<ul>
+				<li>Three B 2</li>
+			</ul>
+		</ul>
+	</li>
+</ul>
+
+li {
+    font-size: 80%;
+}
+nesse caso, o three vai ter 80% do html, o 3A e 3B 80% do three e o 3B2 vai ter 80% do 3B

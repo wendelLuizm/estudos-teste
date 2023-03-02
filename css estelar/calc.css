@@ -1,0 +1,9 @@
+/* 
+<div class="box"></div>
+body {
+  height: 100vh;
+}
+.box {
+  height: calc(50% + 20 px); para utilizar o calc, precisamos definir uma altura no body.
+  widht: 400px;
+}
